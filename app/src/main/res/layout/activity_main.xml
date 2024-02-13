@@ -6,10 +6,23 @@
   android:orientation="vertical"
   android:gravity="center">
 
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="$0"
+    android:textStyle="bold"
+    android:gravity="right"
+    android:textSize="32sp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+
+    />
+
   <ImageView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:src="@drawable/ic_launcher_background"
+    android:src="@mipmap/fruit_logo"
     android:layout_margin="10dp"
     />
 
@@ -34,14 +47,15 @@ commande qui a démarré le processus, et en première colonne un numéro d’id
 qu’on nomme PID."
     />
 
+
   <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="$0"
+    android:text="Abricot"
     android:textStyle="bold"
     android:gravity="center"
-    android:textSize="30sp"
-    android:layout_marginTop="30dp"
+    android:textSize="34sp"
+    android:layout_marginTop="20dp"
     />
 
   <LinearLayout
@@ -60,16 +74,19 @@ qu’on nomme PID."
 
 
       <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_background"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@mipmap/amande"
+        android:layout_weight="1"
         android:layout_margin="5dp"
+
         />
 
       <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_background"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@mipmap/abricot"
+        android:layout_weight="1"
         android:layout_margin="5dp"
 
         />
@@ -82,32 +99,27 @@ qu’on nomme PID."
       android:orientation="horizontal"
       android:gravity="center">
 
-
       <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_background"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@mipmap/ananas"
+        android:layout_weight="1"
         android:layout_margin="5dp"
+
         />
 
       <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_background"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@mipmap/airelle"
+        android:layout_weight="1"
         android:layout_margin="5dp"
 
         />
 
     </LinearLayout>
+
   </LinearLayout>
 
-  <TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Ananas"
-    android:textStyle="bold"
-    android:gravity="center"
-    android:textSize="24sp"
-    />
 
 </LinearLayout>
